@@ -9,3 +9,6 @@ print("|.   O.        O    |")
 print("|         ^         |")
 print("|___________________|")
 
+name="Paul Atreideas"
+name = input("Diana")
+
