@@ -4,13 +4,11 @@ print("Question 1:")
 print("(a: auckland")
 print("(b: wellitinton")
 print("c: queenstown")
-answer = input("Question 1: whitch city is new zealnd capital city?")
-if answer == ("Wellington"):
+answer = input("Question 1: whitch city is new zealnd capital city?").strip().lower()
+if answer == ("wellington"):
     print("Well done! It is Wellington. You got it right!")
-if answer == ("b"):
+elif answer == ("b"):
      print("Well done! It is b. You got it right!")
-# if answer != ("Wellington"):
-#      print("try agin")
 else:
      print("try again")
 
@@ -54,6 +52,29 @@ else:
 # if answer ==("A"):
 #      print("OMG you won")
 
+
+ 
+question = input("what ks captail city of new zealand?")
+if question ==("wllionton"):
+     print("well done")
+elif question ==("Wllionton"):
+     print("well done")
+else:
+     
+
+question2 = input("how to spell jiayi?")
+if question2 ==("jiayi"):
+     print("nice")
+elif question2 ==("Jiayi"):
+     print("nice")
+
+question3 = input("i don't know what i ask")
+if question3 ==("1"):
+     print("good job")
+elif question3 ==("2"):
+     print("good job")
+else:
+     print("try agine")
 
 
      
