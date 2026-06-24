@@ -1,131 +1,136 @@
-print("hello wlecome to my qyiz")
-
-print("Question 1:")
-print("(a: auckland")
-print("(b: wellitinton")
-print("c: queenstown")
-answer = input("Question 1: whitch city is new zealnd capital city?").strip().lower()
-if answer == ("wellington"):
+def main():
+ print("hello wlecome to my qyiz")
+score = 0
+while True:
+ print("Question 1:")
+ print("(a: auckland")
+ print("(b: wellitinton")
+ print("c: queenstown")
+ answer = input("Question 1: whitch city is new zealnd capital city?").strip().lower()
+ if answer == ("wellington"):
     print("Well done! It is Wellington. You got it right!")
-elif answer == ("b"):
+    score = score + 1
+    break
+ elif answer == ("b"):
      print("Well done! It is b. You got it right!")
-else:
-     print("try again")
+     score = score + 1
+     break
+ else:
+     print("pls try again")
 
 
-# print("hi this is my secoond optin ")
-# print("question2")
-# print("Diana")
-# print("Jiayi")
-# print("Dion")
-# answer = input("Question 2: who is look good?  ")
-# if answer ==("Diana"):
-#      print("YES Diana is the most beautiful girlll ")
-# if answer ==("Jiayi"):
-#      print("YES Diana is the most beautiful girlll")
-# if answer == ("Dion"):
-#      print("YES Dion is the most handsome boyy")
-
-# print("this is high level chanllage if u wrong answer you fail")
-
-# print("Question 3:")
-# print("yes")
-# print("not")
-# answer = input("Question 2: Do you like Diana or Dion or Jiayi?")
-# if answer ==("yes"):
-#      print("yes thank you!!")
-
-# print("very nice u reach the question4")
-# print("question4")
-# print("DianaA")
-# print("DianaB")
-# print("DianaC")
-# answer = input("Question4: whitch one is right? just have one chance")
-# if answer ==("DianaA"):
-#      print("well doneeee!")
-
-# print("this is question5 final question")
-# print("A")
-# print("B")
-# print("C")
-# answer = input("Whith one is right This is final")
-# if answer ==("A"):
-#      print("OMG you won")
 
 
- 
-question = input("what ks captail city of new zealand?")
-if question ==("Wellington"):
+
+while True:
+
+ question = input("what ks captail city of new zealand?").strip()
+ if question ==("Wellington"):
      print("well done")
-elif question ==("wellington"):
+     score = score + 1
+     break
+ elif question ==("wellington"):
      print("well done")
-else:
-     print("try agine")
+     score = score + 1
+     break
+ else:
+    print ("pls try again ")
+
      
+while True:
+ question2 = input("Which city has the largest population in New Zealand?").strip()
+ if question2 ==("Auckland"):
+     print("nice")
+     score = score + 1
+     break
+ elif question2 ==("auckland"):
+     print("nice")
+     score = score + 1
+     break
+ else:
+     print("pls try agine")
+while True:
+ question3 = input("Do you live in Auckland please answer yes or no!!!").strip() .lower()
+ if question3 == ("yes"):
+   print("good job")
+   score = score + 1
+   break
+ else:
+   print("pls try agine")
 
-question2 = input("Which city has the largest population in New Zealand?")
-if question2 ==("Auckland"):
+while True:
+ question4 = input("What is the largest city in New Zealand?").strip()
+ if question4 ==("Auckland"):
      print("nice")
-elif question2 ==("auckland"):
+     score = score + 1
+     break
+ elif question4 ==("auckland"):
      print("nice")
-else:
-     print("try agine")
+     score = score + 1
+     break
+ else:
+     print("pls try agine")
 
-question3 = input("Do you live in Auckland please answer yes or no!!!")
-if question3 ==("yes"):
-     print("good job")
-elif question3 ==("Yes"):
-     print("good job")
-else:
-     print("try agine")
-
-question4 = input("What is the largest city in New Zealand?")
-if question4 ==("Auckland"):
+while True:
+ question5 = input("How many major islands are there in New Zealand?").strip() .lower()
+ if question5 ==("two"):
      print("nice")
-elif question4 ==("auckland"):
+     score = score + 1
+     break
+ elif question5 ==("2"):
      print("nice")
-else:
-     print("try agine")
-
-
-question5 = input("How many major islands are there in New Zealand?")
-if question5 ==("two"):
+     score = score + 1
+     break
+ else:
+     print("pls try agine")
+while True:
+ question6 = input("What is the largest city in New Zealand?").strip()
+ if question6 ==("Auckland"):
      print("nice")
-elif question5 ==("Two"):
+     score = score + 1
+     break
+ elif question6 ==("auckland"):
      print("nice")
-elif question5 ==("2"):
+     score = score + 1
+     break
+ else:
+     print("pls try agine")
+while True:
+ question7 = input("What is 2 + 3?").strip()
+ if question7 ==("5"):
      print("nice")
-else:
-     print("try agine")
-
-question6 = input("What is the largest city in New Zealand?")
-if question6 ==("Auckland"):
+     score = score + 1
+     break
+ else:
+     print("pls try agine")
+while True:
+ question8 = input("what is 1 + 1?").strip()
+ if question8 == input("2"):
      print("nice")
-elif question6 ==("auckland"):
+     score = score + 1
+     break
+ else:
+     print("pls try agine")
+while True:
+ question9 = input("what is 2 + 2?").strip()
+ if question9 == input("4"):
      print("nice")
-else:
-     print("try agine")
-
-question7 = input("What is 2 + 3?")
-if question7 ==("5"):
+     score = score + 1
+     break
+ else:
+     print("pls try again")
+while True:
+ question10 = input("what is 2 + 1?").strip()
+ if question10 == input("3"):
      print("nice")
-else:
-     print("try agine")
-
-question8 = input("what is 1 + 1?")
-if question8 == input("2"):
-     print("nice")
-else:
-     print("try agine")
-
-question9 = input("what is 2 + 2?")
-if question9 == input("4"):
-     print("nice")
-else:
+     score = score + 1
+     break
+ else:
      print("pls try again")
 
-question10 = input("what is 2 + 1?")
-if question10 == input("3"):
-     print("nice")
-else:
-     print("pls try again")
+     print(score)
+
+     print("good job thank you for u done the quzie this is u get score is: {score} / 11")
+
+main()
+
