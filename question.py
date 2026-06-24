@@ -96,35 +96,52 @@ while True:
  else:
      print("pls try agine")
 while True:
- question7 = input("What is 2 + 3?").strip()
+ question7 = input("What is 2 + 3?").strip() .upper()
  if question7 ==("5"):
      print("nice")
      score = score + 1
      break
+ elif question7 ==("FIVE"):
+    print("nice")
+    score = score + 1
+    break
+ 
  else:
      print("pls try agine")
 while True:
- question8 = input("what is 1 + 1?").strip()
+ question8 = input("what is 1 + 1?").strip() .upeer()
  if question8 == input("2"):
      print("nice")
      score = score + 1
      break
+ elif question7 ==("TWO"):
+    print("nice")
+    score = score + 1
+    break
  else:
      print("pls try agine")
 while True:
- question9 = input("what is 2 + 2?").strip()
+ question9 = input("what is 2 + 2?").strip() .upper()
  if question9 == input("4"):
      print("nice")
      score = score + 1
      break
+ elif question7 ==("FOUR"):
+    print("nice")
+    score = score + 1
+    break
  else:
      print("pls try again")
 while True:
- question10 = input("what is 2 + 1?").strip()
+ question10 = input("what is 2 + 1?").strip() .upper()
  if question10 == input("3"):
      print("nice")
      score = score + 1
      break
+ elif question7 ==("THREE"):
+    print("nice")
+    score = score + 1
+    break
  else:
      print("pls try again")
 
@@ -133,4 +150,3 @@ while True:
      print("good job thank you for u done the quzie this is u get score is: {score} / 11")
 
 main()
-
