@@ -55,26 +55,77 @@ else:
 
  
 question = input("what ks captail city of new zealand?")
-if question ==("wllionton"):
+if question ==("Wellington"):
      print("well done")
-elif question ==("Wllionton"):
+elif question ==("wellington"):
      print("well done")
 else:
+     print("try agine")
      
 
-question2 = input("how to spell jiayi?")
-if question2 ==("jiayi"):
+question2 = input("Which city has the largest population in New Zealand?")
+if question2 ==("Auckland"):
      print("nice")
-elif question2 ==("Jiayi"):
+elif question2 ==("auckland"):
      print("nice")
+else:
+     print("try agine")
 
-question3 = input("i don't know what i ask")
-if question3 ==("1"):
+question3 = input("Do you live in Auckland please answer yes or no!!!")
+if question3 ==("yes"):
      print("good job")
-elif question3 ==("2"):
+elif question3 ==("Yes"):
      print("good job")
 else:
      print("try agine")
 
+question4 = input("What is the largest city in New Zealand?")
+if question4 ==("Auckland"):
+     print("nice")
+elif question4 ==("auckland"):
+     print("nice")
+else:
+     print("try agine")
 
-     
+
+question5 = input("How many major islands are there in New Zealand?")
+if question5 ==("two"):
+     print("nice")
+elif question5 ==("Two"):
+     print("nice")
+elif question5 ==("2"):
+     print("nice")
+else:
+     print("try agine")
+
+question6 = input("What is the largest city in New Zealand?")
+if question6 ==("Auckland"):
+     print("nice")
+elif question6 ==("auckland"):
+     print("nice")
+else:
+     print("try agine")
+
+question7 = input("What is 2 + 3?")
+if question7 ==("5"):
+     print("nice")
+else:
+     print("try agine")
+
+question8 = input("what is 1 + 1?")
+if question8 == input("2"):
+     print("nice")
+else:
+     print("try agine")
+
+question9 = input("what is 2 + 2?")
+if question9 == input("4"):
+     print("nice")
+else:
+     print("pls try again")
+
+question10 = input("what is 2 + 1?")
+if question10 == input("3"):
+     print("nice")
+else:
+     print("pls try again")
