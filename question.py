@@ -20,11 +20,6 @@ while True:
         print("Well done! It is Wellington. You got it right!")
         score = score + 1
         break
- #if they get it right using B
-    elif question == "b":
-        print("Well done! It is b. You got it right!")
-        score = score + 1
-        break
  # They get it wrong and have to try again
     else:
         print("pls try again")
@@ -34,12 +29,12 @@ while True:
 while True:
 
     question = input("what ks captail city of new zealand?").strip()
-    answer
+    answer =["wellington" , "Wellington"]
  # if they get it right  using Wellington
     if question ==("Wellington"):
          print("well done")
-        score = score + 1
-        break
+         score = score + 1
+         break
  # if they get it right  using wellington
     elif question ==("wellington"):
         print("well done")
