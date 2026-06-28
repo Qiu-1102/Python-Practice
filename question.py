@@ -31,15 +31,10 @@ while True:
     question = input("what ks captail city of new zealand?").strip()
     answer =["wellington" , "Wellington"]
  # if they get it right  using Wellington
-    if question ==("Wellington"):
+    if question in answer:
          print("well done")
          score = score + 1
          break
- # if they get it right  using wellington
-    elif question ==("wellington"):
-        print("well done")
-        score = score + 1
-        break
   #They get it wrong and have to try again
     else:
         print ("pls try again ")
